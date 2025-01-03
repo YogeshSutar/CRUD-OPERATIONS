@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+.navbar_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(228,228,228,1) 65%);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.Card_logo {
+    display: flex;
+    align-items: center;
+}
+
+.Card_logo img {
+    width: 80px;
+    height: 60px;
+}
+
+.inner_ul_navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarName {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.navbarName:hover {
+    font-weight: bolder;
+    color: #ffffff; 
+    background-color: black;
+    border: 1px solid black;
+}
+
+.active {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+.container {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid red;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    color: BLUE;
+    background-color: red;
+    width: 100%;
+    z-index: 1000;
+}
