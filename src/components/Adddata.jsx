@@ -6,7 +6,7 @@
             title:"",
         })
 
-        const handleInputTitle=(e)=>{
+        const handleInputTitleName=(e)=>{
             setAddingData({...addingData, title: e.target.value})
         }
     
@@ -32,7 +32,7 @@
             <h1>Card Detail...</h1>
             <div>
                 <span>Title : </span>
-                <input type="text" value={addingData.title} onChange={handleInputTitle}/>
+                <input type="text" value={addingData.title} onChange={handleInputTitleName}/>
                 <button onClick={AddDetail}>Add Detail</button>
             </div>
             </>
