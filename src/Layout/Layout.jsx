@@ -34,6 +34,11 @@ const Layout = () => {
                             Cards
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink className={activeClass} to="/CardsRedux">
+                            Redux Cards
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
             
